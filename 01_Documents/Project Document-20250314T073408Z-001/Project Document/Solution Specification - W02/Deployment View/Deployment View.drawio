@@ -1,0 +1,135 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
+  <diagram name="Page-1" id="su7mBoW3w-mX_gile9Bl">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uDzvwChPjavRVws4BTrn-1" value="&lt;b&gt;Mobile App&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-2" value="- Google Play Store" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="uDzvwChPjavRVws4BTrn-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-5" value="&lt;b&gt;Fitness Service&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="110" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-6" value="- Render" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="uDzvwChPjavRVws4BTrn-5">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-10" value="&lt;b&gt;Statistic Service&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-11" value="- Render" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="uDzvwChPjavRVws4BTrn-10">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-14" value="&lt;b&gt;User Service&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-15" value="- Render" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="uDzvwChPjavRVws4BTrn-14">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="uDzvwChPjavRVws4BTrn-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="250" as="sourcePoint" />
+            <mxPoint x="260" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-20" value="https://api.fittrack.com/fitness" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-20;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.007;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uDzvwChPjavRVws4BTrn-2" target="uDzvwChPjavRVws4BTrn-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="290" as="sourcePoint" />
+            <mxPoint x="330" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-26" value="https://api.fittrack.com/statistics" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="246" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uDzvwChPjavRVws4BTrn-2" target="uDzvwChPjavRVws4BTrn-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="360" as="sourcePoint" />
+            <mxPoint x="360" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-28" value="https://api.fittrack.com/users" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=25;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-29" value="&lt;b&gt;PostgresSQL DB&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-30" value="- Neon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="uDzvwChPjavRVws4BTrn-29">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="uDzvwChPjavRVws4BTrn-5" target="uDzvwChPjavRVws4BTrn-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="140" as="sourcePoint" />
+            <mxPoint x="790" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-34" value="DB_URL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="669" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.007;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uDzvwChPjavRVws4BTrn-11" target="uDzvwChPjavRVws4BTrn-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="330" as="sourcePoint" />
+            <mxPoint x="780" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-37" value="DB_URL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="241" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.014;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uDzvwChPjavRVws4BTrn-15" target="uDzvwChPjavRVws4BTrn-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="603" y="410" as="sourcePoint" />
+            <mxPoint x="840" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDzvwChPjavRVws4BTrn-39" value="DB_URL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="660" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YVy_asjIjlOxR-9r9E92-1" value="&lt;b&gt;&amp;nbsp;Website&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YVy_asjIjlOxR-9r9E92-2" value="- Vercel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YVy_asjIjlOxR-9r9E92-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YVy_asjIjlOxR-9r9E92-4" value="https://api.fittrack.com/users" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="410" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YVy_asjIjlOxR-9r9E92-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.024;entryY=0.847;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YVy_asjIjlOxR-9r9E92-2" target="uDzvwChPjavRVws4BTrn-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="435" />
+              <mxPoint x="270" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVy_asjIjlOxR-9r9E92-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="YVy_asjIjlOxR-9r9E92-1" target="uDzvwChPjavRVws4BTrn-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="400" />
+              <mxPoint x="150" y="390" />
+              <mxPoint x="430" y="390" />
+              <mxPoint x="430" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVy_asjIjlOxR-9r9E92-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YVy_asjIjlOxR-9r9E92-1" target="uDzvwChPjavRVws4BTrn-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="430" />
+              <mxPoint x="40" y="133" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVy_asjIjlOxR-9r9E92-10" value="https://api.fittrack.com/fitness" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YVy_asjIjlOxR-9r9E92-11" value="https://api.fittrack.com/statistics" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
